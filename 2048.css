@@ -1,0 +1,96 @@
+body{
+    background-color:#efeeee;
+}
+header{
+    display:block;
+    margin:0 auto;
+    width:100%;
+    text-align:center;
+}
+
+header h1{
+    font-family:Arial;
+    font-size:60px;
+    font-weight:bold;
+}
+
+header #newgamebutton{
+    display:block;
+    margin:20px auto;
+
+    width:100px;
+    padding:10px 10px;
+    background-color:#efeeee;
+    
+    box-shadow: -1px -1px 2px  #d1cdc7 inset ,1px 1px 2px #ffffff inset,-1px -1px 2px  #d1cdc7 ,1px 1px 2px #ffffff ;
+   
+    transition : box-shadow 2s;
+
+    font-family:Arial;
+    color:black;
+
+    border-radius:10px;
+
+    text-decoration:none;
+}
+
+header #newgamebutton:hover{
+    width:100px;
+    background-color:#efeeee;
+    color: black;
+    box-shadow: 3px 3px 8px  #d1cdc7 ,-3px -3px 8px #ffffff, -1px -1px 2px  #d1cdc7 inset ,1px 1px 2px #ffffff inset  ;
+    
+    
+}
+
+header #newgamebutton:active{
+    width:100px;
+    background-color:#efeeee;
+    color: black;
+    box-shadow: 3px 3px 5px  #d1cdc7 inset ,-3px -3px 5px #ffffff inset , -1px -1px 2px  #d1cdc7 ,1px 1px 2px #ffffff ;
+    
+}
+
+header p{
+    font-family:Arial;
+    font-size:25px;
+    margin:20px auto;
+}
+
+#grid-container{
+    width:460px;
+    height:460px;
+    padding:20px;
+
+    margin:50px auto;
+    background-color:#efeeee;
+    border-radius: 65px;
+    position: relative;
+    box-shadow: 6px 6px 16px #d1cdc7,-6px -6px 16px #ffffff;
+}
+
+.grid-cell{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background-color: #efeeee;
+    box-shadow: 6px 6px 16px  #d1cdc7 inset,-6px -6px 16px #ffffff inset ;
+    
+
+    position: absolute;
+}
+
+.number-cell{
+    border-radius: 50%;
+
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 100px;
+    text-align: center;
+
+    box-shadow: 3px 3px 13px -10px black inset;
+
+    position: absolute;
+}
+
